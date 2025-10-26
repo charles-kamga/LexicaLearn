@@ -16,6 +16,7 @@ export type Lesson = {
 export type VocabularyItem = {
   word: string;
   definition: string;
+  definitionFR: string;
   example: string;
 };
 

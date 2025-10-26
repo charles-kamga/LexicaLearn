@@ -449,26 +449,31 @@ export const vocabularyData: VocabularyItem[] = [
   {
     word: 'Ubiquitous',
     definition: 'Present, appearing, or found everywhere.',
+    definitionFR: 'Présent, apparaissant, ou trouvé partout.',
     example: 'Mobile phones are ubiquitous these days.',
   },
   {
     word: 'Ephemeral',
     definition: 'Lasting for a very short time.',
+    definitionFR: 'Ne durant que très peu de temps.',
     example: 'Fashion is ephemeral, but style is eternal.',
   },
   {
     word: 'Mellifluous',
     definition: '(of a voice or words) Sweet or musical; pleasant to hear.',
+    definitionFR: "(d'une voix ou de mots) Doux ou musical ; agréable à entendre.",
     example: 'She had a mellifluous voice that soothed everyone.',
   },
   {
     word: 'Pulchritudinous',
     definition: 'Having great physical beauty.',
+    definitionFR: 'Ayant une grande beauté physique.',
     example: 'The model was praised for her pulchritudinous features.',
   },
   {
     word: 'Serendipity',
     definition: 'The occurrence and development of events by chance in a happy or beneficial way.',
+    definitionFR: "La survenue et le développement d'événements par hasard d'une manière heureuse ou bénéfique.",
     example: 'Discovering the old bookshop was a moment of pure serendipity.',
   },
 ];

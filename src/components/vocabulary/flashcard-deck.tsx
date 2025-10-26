@@ -13,7 +13,7 @@ import { cn } from '@/lib/utils';
 import type { VocabularyItem } from '@/lib/types';
 import './flashcard.css';
 
-function Flashcard({ word, definition, example }: VocabularyItem) {
+function Flashcard({ word, definition, definitionFR, example }: VocabularyItem) {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
@@ -27,8 +27,12 @@ function Flashcard({ word, definition, example }: VocabularyItem) {
         <Card className="flashcard-face flashcard-back">
           <CardContent className="flex flex-col items-center justify-center h-full text-center p-6 space-y-4">
             <div>
-              <p className="text-sm font-semibold text-muted-foreground">DEFINITION</p>
+              <p className="text-sm font-semibold text-muted-foreground">DEFINITION (EN)</p>
               <p className="text-lg md:text-xl font-medium">{definition}</p>
+            </div>
+             <div>
+              <p className="text-sm font-semibold text-muted-foreground">DÉFINITION (FR)</p>
+              <p className="text-lg md:text-xl font-medium">{definitionFR}</p>
             </div>
             <div>
               <p className="text-sm font-semibold text-muted-foreground">EXAMPLE</p>
