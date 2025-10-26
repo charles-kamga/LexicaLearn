@@ -55,23 +55,21 @@ export function MainNav() {
         <SidebarMenu>
           {navItems.map((item) => (
             <SidebarMenuItem key={item.href}>
-              <Link href={item.href} legacyBehavior passHref>
+              <Link href={item.href} passHref>
                 <SidebarMenuButton
-                  asChild
                   isActive={pathname === item.href}
                   tooltip={item.label}
+                  as="a"
                 >
-                  <a>
-                    <item.icon
-                      className={cn(
-                        'h-5 w-5',
-                        pathname === item.href
-                          ? 'text-primary-foreground'
-                          : 'text-muted-foreground'
-                      )}
-                    />
-                    <span>{item.label}</span>
-                  </a>
+                  <item.icon
+                    className={cn(
+                      'h-5 w-5',
+                      pathname === item.href
+                        ? 'text-primary-foreground'
+                        : 'text-muted-foreground'
+                    )}
+                  />
+                  <span>{item.label}</span>
                 </SidebarMenuButton>
               </Link>
             </SidebarMenuItem>
