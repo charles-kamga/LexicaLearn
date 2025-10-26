@@ -171,6 +171,56 @@ Use **in** for months, years, centuries and long periods.
       },
     ],
   },
+  {
+    id: 'conditionals',
+    title: 'Conditionals (If Clauses)',
+    description: 'Understand and use conditional sentences.',
+    imageUrl: '4',
+    content: `
+Conditional sentences are used to express that the action in the main clause (without if) can only take place if a certain condition (in the clause with if) is fulfilled. There are four main types of conditionals.
+
+### The Zero Conditional
+
+Used for general truths and scientific facts.
+- **Structure:** If + Present Simple, ... Present Simple
+- *Example:* If you **heat** water, it **boils**.
+
+### The First Conditional
+
+Used for a possible situation in the future.
+- **Structure:** If + Present Simple, ... will + Base Verb
+- *Example:* If it **rains** tomorrow, we **will stay** home.
+
+### The Second Conditional
+
+Used for hypothetical or unlikely situations in the present or future.
+- **Structure:** If + Past Simple, ... would + Base Verb
+- *Example:* If I **had** a million dollars, I **would travel** the world.
+
+### The Third Conditional
+
+Used for a hypothetical situation in the past that did not happen.
+- **Structure:** If + Past Perfect, ... would have + Past Participle
+- *Example:* If I **had studied** harder, I **would have passed** the exam.
+`,
+    quiz: [
+      {
+        question: 'If you heat ice, it ___',
+        options: ['melts', 'melted', 'will melt', 'would melt'],
+        correctAnswer: 'melts',
+      },
+      {
+        question: 'If I ___ you, I would apologize.',
+        options: ['am', 'was', 'were', 'be'],
+        correctAnswer: 'were',
+      },
+      {
+        question: 'She would have come if she ___ invited.',
+        options: ['was', 'had been', 'has been', 'would be'],
+        correctAnswer: 'had been',
+      },
+    ],
+  },
 ];
 
 export const vocabularyData: VocabularyItem[] = [
