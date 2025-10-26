@@ -1,3 +1,4 @@
+
 import type { Lesson, VocabularyItem, ProgressChartData } from '@/lib/types';
 
 export const lessonsData: Lesson[] = [
@@ -57,7 +58,7 @@ export const lessonsData: Lesson[] = [
     content: `
 The **Present Simple** tense is one of the most fundamental tenses in English. We use it to talk about things that are generally true, habits, and routines.
 
-### Structure
+<h3>Structure</h3>
 
 - **Positive:** Subject + Verb (add -s for he/she/it) + ...
   - *Example:* I **play** tennis every Saturday.
@@ -71,7 +72,7 @@ The **Present Simple** tense is one of the most fundamental tenses in English. W
   - *Example:* **Do** you **like** coffee?
   - *Example:* **Does** she **like** coffee?
 
-### When to Use It
+<h3>When to Use It</h3>
 
 1.  **Habits and Routines:**
     - I **get up** at 7 AM every day.
@@ -205,37 +206,47 @@ The **Present Simple** tense is one of the most fundamental tenses in English. W
     description: 'Master the use of definite and indefinite articles.',
     imageUrl: '2',
     content: `
-Articles are words that define a noun as specific or unspecific. English has two types of articles: **the** and **a/an**.
+<h3>Indefinite Articles: A and An</h3>
+<p>We use <b>a</b> or <b>an</b> when we are talking about something in a general way, or when we mention something for the first time.</p>
+<ul>
+  <li>Use <b>a</b> before words that start with a consonant sound.
+    <ul>
+      <li><em>Example:</em> <b>a</b> book, <b>a</b> car, <b>a</b> university</li>
+    </ul>
+  </li>
+  <li>Use <b>an</b> before words that start with a vowel sound.
+    <ul>
+      <li><em>Example:</em> <b>an</b> apple, <b>an</b> hour, <b>an</b> umbrella</li>
+    </ul>
+  </li>
+</ul>
 
-### Indefinite Articles: A and An
+<h3>Definite Article: The</h3>
+<p>We use <b>the</b> when we are talking about something specific, something that has already been mentioned, or something unique.</p>
+<ol>
+  <li><b>Specific Nouns:</b>
+    <ul>
+      <li>I saw a cat. <b>The</b> cat was black. (The specific cat I just mentioned)</li>
+    </ul>
+  </li>
+  <li><b>Unique Things:</b>
+    <ul>
+      <li><b>The</b> sun, <b>the</b> moon, <b>the</b> internet</li>
+    </ul>
+  </li>
+  <li><b>Superlatives:</b>
+    <ul>
+      <li><b>The</b> tallest building, <b>the</b> best student</li>
+    </ul>
+  </li>
+</ol>
 
-We use **a** or **an** when we are talking about something in a general way, or when we mention something for the first time.
-
-- Use **a** before words that start with a consonant sound.
-  - *Example:* **a** book, **a** car, **a** university
-
-- Use **an** before words that start with a vowel sound.
-  - *Example:* **an** apple, **an** hour, **an** umbrella
-
-### Definite Article: The
-
-We use **the** when we are talking about something specific, something that has already been mentioned, or something unique.
-
-1.  **Specific Nouns:**
-    - I saw a cat. **The** cat was black. (The specific cat I just mentioned)
-
-2.  **Unique Things:**
-    - **The** sun, **the** moon, **the** internet
-
-3.  **Superlatives:**
-    - **The** tallest building, **the** best student
-
-### No Article
-
-We don't use an article when talking about general ideas, concepts, or plural nouns in a general sense.
-
-- *Example:* I like **music**.
-- *Example:* **Cats** are independent animals.
+<h3>No Article</h3>
+<p>We don't use an article when talking about general ideas, concepts, or plural nouns in a general sense.</p>
+<ul>
+  <li><em>Example:</em> I like <b>music</b>.</li>
+  <li><em>Example:</em> <b>Cats</b> are independent animals.</li>
+</ul>
     `,
     quiz: [
       {
@@ -261,41 +272,41 @@ We don't use an article when talking about general ideas, concepts, or plural no
     description: 'Learn when to use "in", "on", and "at" for time.',
     imageUrl: '3',
     content: `
-Prepositions of time like **in**, **on**, and **at** help us talk about when something happens.
-
-### At
-
-Use **at** for precise times.
-- **at** 3 o'clock
-- **at** 10:30 AM
-- **at** noon
-- **at** dinnertime
-- **at** bedtime
-- **at** sunrise
-- **at** the moment
-
-### On
-
-Use **on** for days and dates.
-- **on** Sunday
-- **on** Tuesdays
-- **on** 6 March
-- **on** 25 Dec. 2010
-- **on** Christmas Day
-- **on** my birthday
-- **on** New Year's Eve
-
-### In
-
-Use **in** for months, years, centuries and long periods.
-- **in** May
-- **in** summer
-- **in** the summer
-- **in** 1990
-- **in** the 1990s
-- **in** the next century
-- **in** the Ice Age
-- **in** the past/future
+<p>Prepositions of time like <strong>in</strong>, <strong>on</strong>, and <strong>at</strong> help us talk about when something happens.</p>
+<h3>At</h3>
+<p>Use <strong>at</strong> for precise times.</p>
+<ul>
+  <li><strong>at</strong> 3 o'clock</li>
+  <li><strong>at</strong> 10:30 AM</li>
+  <li><strong>at</strong> noon</li>
+  <li><strong>at</strong> dinnertime</li>
+  <li><strong>at</strong> bedtime</li>
+  <li><strong>at</strong> sunrise</li>
+  <li><strong>at</strong> the moment</li>
+</ul>
+<h3>On</h3>
+<p>Use <strong>on</strong> for days and dates.</p>
+<ul>
+  <li><strong>on</strong> Sunday</li>
+  <li><strong>on</strong> Tuesdays</li>
+  <li><strong>on</strong> 6 March</li>
+  <li><strong>on</strong> 25 Dec. 2010</li>
+  <li><strong>on</strong> Christmas Day</li>
+  <li><strong>on</strong> my birthday</li>
+  <li><strong>on</strong> New Year's Eve</li>
+</ul>
+<h3>In</h3>
+<p>Use <strong>in</strong> for months, years, centuries and long periods.</p>
+<ul>
+  <li><strong>in</strong> May</li>
+  <li><strong>in</strong> summer</li>
+  <li><strong>in</strong> the summer</li>
+  <li><strong>in</strong> 1990</li>
+  <li><strong>in</strong> the 1990s</li>
+  <li><strong>in</strong> the next century</li>
+  <li><strong>in</strong> the Ice Age</li>
+  <li><strong>in</strong> the past/future</li>
+</ul>
     `,
     quiz: [
       {
@@ -369,31 +380,31 @@ Use **in** for months, years, centuries and long periods.
     description: 'Understand and use conditional sentences.',
     imageUrl: '4',
     content: `
-Conditional sentences are used to express that the action in the main clause (without if) can only take place if a certain condition (in the clause with if) is fulfilled. There are four main types of conditionals.
-
-### The Zero Conditional
-
-Used for general truths and scientific facts.
-- **Structure:** If + Present Simple, ... Present Simple
-- *Example:* If you **heat** water, it **boils**.
-
-### The First Conditional
-
-Used for a possible situation in the future.
-- **Structure:** If + Present Simple, ... will + Base Verb
-- *Example:* If it **rains** tomorrow, we **will stay** home.
-
-### The Second Conditional
-
-Used for hypothetical or unlikely situations in the present or future.
-- **Structure:** If + Past Simple, ... would + Base Verb
-- *Example:* If I **had** a million dollars, I **would travel** the world.
-
-### The Third Conditional
-
-Used for a hypothetical situation in the past that did not happen.
-- **Structure:** If + Past Perfect, ... would have + Past Participle
-- *Example:* If I **had studied** harder, I **would have passed** the exam.
+<p>Conditional sentences are used to express that the action in the main clause (without if) can only take place if a certain condition (in the clause with if) is fulfilled. There are four main types of conditionals.</p>
+<h3>The Zero Conditional</h3>
+<p>Used for general truths and scientific facts.</p>
+<ul>
+  <li><strong>Structure:</strong> If + Present Simple, ... Present Simple</li>
+  <li><em>Example:</em> If you <strong>heat</strong> water, it <strong>boils</strong>.</li>
+</ul>
+<h3>The First Conditional</h3>
+<p>Used for a possible situation in the future.</p>
+<ul>
+  <li><strong>Structure:</strong> If + Present Simple, ... will + Base Verb</li>
+  <li><em>Example:</em> If it <strong>rains</strong> tomorrow, we <strong>will stay</strong> home.</li>
+</ul>
+<h3>The Second Conditional</h3>
+<p>Used for hypothetical or unlikely situations in the present or future.</p>
+<ul>
+  <li><strong>Structure:</strong> If + Past Simple, ... would + Base Verb</li>
+  <li><em>Example:</em> If I <strong>had</strong> a million dollars, I <strong>would travel</strong> the world.</li>
+</ul>
+<h3>The Third Conditional</h3>
+<p>Used for a hypothetical situation in the past that did not happen.</p>
+<ul>
+  <li><strong>Structure:</strong> If + Past Perfect, ... would have + Past Participle</li>
+  <li><em>Example:</em> If I <strong>had studied</strong> harder, I <strong>would have passed</strong> the exam.</li>
+</ul>
 `,
     quiz: [
       {
