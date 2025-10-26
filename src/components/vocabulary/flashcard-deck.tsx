@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Carousel,
   CarouselContent,
@@ -15,6 +15,11 @@ import './flashcard.css';
 
 function Flashcard({ word, definition, definitionFR, example }: VocabularyItem) {
   const [isFlipped, setIsFlipped] = useState(false);
+
+  useEffect(() => {
+    // Reset flip state when the card changes
+    setIsFlipped(false);
+  }, [word]);
 
   return (
     <div className="flashcard-container" onClick={() => setIsFlipped(!isFlipped)}>
@@ -45,9 +50,28 @@ function Flashcard({ word, definition, definitionFR, example }: VocabularyItem) 
   );
 }
 
-export function FlashcardDeck({ initialWords }: { initialWords: VocabularyItem[] }) {
-  const [words] = useState(initialWords);
+// Function to shuffle an array
+function shuffleArray<T>(array: T[]): T[] {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+}
 
+
+export function FlashcardDeck({ initialWords }: { initialWords: VocabularyItem[] }) {
+  const [words, setWords] = useState<VocabularyItem[]>([]);
+
+  useEffect(() => {
+    setWords(shuffleArray(initialWords));
+  }, [initialWords]);
+
+  if (words.length === 0) {
+    return null; // or a loading skeleton
+  }
+  
   return (
     <Carousel
       opts={{
