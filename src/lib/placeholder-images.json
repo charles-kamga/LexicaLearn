@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "1",
+      "description": "Abstract image representing time and routines.",
+      "imageUrl": "https://images.unsplash.com/photo-1648385132744-b52531146e5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMGNsb2NrfGVufDB8fHx8MTc2MTQyNTE1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract clock"
+    },
+    {
+      "id": "2",
+      "description": "Image of books and text to represent language articles.",
+      "imageUrl": "https://images.unsplash.com/photo-1721552008286-0b839c033140?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib29rcyUyMGxpYnJhcnl8ZW58MHx8fHwxNzYxNDM1Nzg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "books library"
+    },
+    {
+      "id": "3",
+      "description": "A calendar representing prepositions of time.",
+      "imageUrl": "https://images.unsplash.com/photo-1642360912445-61d71dd98400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYWxlbmRhciUyMHNjaGVkdWxlfGVufDB8fHx8MTc2MTM5MDY3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calendar schedule"
+    }
+  ]
 }
