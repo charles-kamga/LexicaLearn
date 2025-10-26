@@ -132,7 +132,3 @@ Ce dépôt ne contient pas de fichier LICENSE par défaut. Ajoutez une licence (
 Mainteneur: @charles-kamga (https://github.com/charles-kamga)
 
 ---
-
-Si vous voulez, je peux :
-- adapter ce README au contenu réel du dépôt (package.json, scripts, structure) si vous me fournissez le `tree` ou les fichiers clés ;
-- ajouter des captures d'écran, une section API détaillée ou un guide de déploiement complet.
